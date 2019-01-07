@@ -5,7 +5,6 @@
 
 <struts>
 
-	<!-- 报料 -->
 	<package name="app-report" namespace="/app/report" extends="per-default">
 		<action name="listjson" class="reportAction" method="getEntityListJson" />
 		<action name="saveReport" class="reportAction" method="saveReport" />
@@ -76,7 +75,6 @@
 		<action name="import" class="importDataAction" method="importData" />
 	</package>
 	
-	<!-- 报料回复 -->
 	<package name="sys-reply" namespace="/sys/reply" extends="per-default">
 		<action name="save" class="replyAction" method="saveJson" />
 		<action name="delete" class="replyAction" method="deleteJson" />
